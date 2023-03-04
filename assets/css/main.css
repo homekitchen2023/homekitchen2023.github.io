@@ -764,17 +764,30 @@ section {
   }
 }
 
+
+h3,h4,h5,h6{
+  color: white;
+}
+
+.menuprice{
+
+  font-size: 28px;
+  font-weight: 500;
+  color: #F47A00;
+}
+
+
 *--------------------------------------------------------------
-# About Us Section
+# Service  Section
 --------------------------------------------------------------*/
-.about h3 {
+.service h3 {
   font-weight: 700;
   font-size: 28px;
   margin-bottom: 20px;
   font-family: var(--font-secondary);
 }
 
-.about .call-us {
+.service .call-us {
   left: 10%;
   right: 10%;
   bottom: 0;
@@ -784,29 +797,29 @@ section {
   text-align: center;
 }
 
-.about .call-us h4 {
+.service .call-us h4 {
   font-size: 24px;
   font-weight: 700;
   margin-bottom: 5px;
 }
 
-.about .call-us p {
+.service .call-us p {
   font-size: 28px;
   font-weight: 700;
   color: var(--color-primary);
 }
 
-.about .content ul {
+.service .content ul {
   list-style: none;
   padding: 0;
 }
 
-.about .content ul li {
+.service .content ul li {
   padding: 0 0 10px 30px;
   position: relative;
 }
 
-.about .content ul i {
+.service .content ul i {
   position: absolute;
   font-size: 20px;
   left: 0;
@@ -814,11 +827,11 @@ section {
   color: var(--color-primary);
 }
 
-.about .content p:last-child {
+.service .content p:last-child {
   margin-bottom: 0;
 }
 
-.about .play-btn {
+.service .play-btn {
   width: 94px;
   height: 94px;
   background: radial-gradient(var(--color-primary) 50%, rgba(0, 131, 116, 0.4) 52%);
@@ -830,7 +843,7 @@ section {
   overflow: hidden;
 }
 
-.about .play-btn:before {
+.service .play-btn:before {
   content: "";
   position: absolute;
   width: 120px;
@@ -853,7 +866,7 @@ section {
   background: rgba(198, 16, 0, 0);
 }
 
-.about .play-btn:after {
+.service .play-btn:after {
   content: "";
   position: absolute;
   left: 50%;
@@ -868,7 +881,7 @@ section {
   transition: all 400ms cubic-bezier(0.55, 0.055, 0.675, 0.19);
 }
 
-.about .play-btn:hover:before {
+.service .play-btn:hover:before {
   content: "";
   position: absolute;
   left: 50%;
@@ -886,7 +899,7 @@ section {
   border-radius: 0;
 }
 
-.about .play-btn:hover:after {
+.service .play-btn:hover:after {
   border-left: 15px solid var(--color-primary);
   transform: scale(20);
 }
@@ -2140,7 +2153,7 @@ section {
 }
 
 .hero .icon-boxes {
-  padding-bottom: 60px;
+  padding-bottom: 30px;
 }
 
 @media (min-width: 1200px) {
@@ -2150,13 +2163,13 @@ section {
     bottom: 0;
     left: 0;
     right: 0;
-    height: calc(50% + 20px);
+    height: calc(50% + 10px);
     background-color: #fff;
   }
 }
 
 .hero .icon-box {
-  padding: 60px 30px;
+  padding: 15px 30px;
   position: relative;
   overflow: hidden;
   background: #008d7d;
@@ -2170,9 +2183,9 @@ section {
 }
 
 .hero .icon-box .title {
-  font-weight: 700;
-  margin-bottom: 15px;
-  font-size: 24px;
+  font-weight: 600;
+  margin-bottom: 10px;
+  font-size: 20px;
 }
 
 .hero .icon-box .title a {
@@ -2181,7 +2194,7 @@ section {
 }
 
 .hero .icon-box .icon {
-  margin-bottom: 20px;
+  margin-bottom: 10px;
   padding-top: 10px;
   display: inline-block;
   transition: all 0.3s ease-in-out;
@@ -2862,4 +2875,12 @@ section {
 
 .footer .credits a {
   color: #fff;
+}
+
+
+.btn-group-xs > .btn, .btn-xs {
+  padding: .25rem .4rem;
+  font-size: .570rem;
+  line-height: .5;
+  border-radius: .2rem;
 }
